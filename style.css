@@ -1,0 +1,47 @@
+body {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.board {
+   width: 34rem;
+   height: 34rem;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 1rem;
+}
+.tile {
+   /* border: 1px solid #ddd; */
+   background: #ddd;
+   width: 10rem;
+   height: 10rem;
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.tile:hover {
+   /* box-shadow: 0px 0px 7px #dc3545; */
+   /* box-shadow: 0px 0px 7px #007bff; */
+}
+.fa-times {
+   font-size: 8rem;
+}
+.fa-circle {
+   font-size: 6rem;
+}
+
+.player-one {
+   box-shadow: 0px 0px 7px #007bff;
+}
+.player-two {
+   box-shadow: 0px 0px 7px #dc3545;
+}
+
+.player-one-hover {
+   box-shadow: 0px 0px 7px #007bff;
+}
+.player-two-hover {
+   box-shadow: 0px 0px 7px #dc3545;
+}
